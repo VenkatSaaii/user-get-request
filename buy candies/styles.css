@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(60deg, #f2f2f2, #d88771, #ff6f47);
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    color: #3d969b;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-right: 10px;
+}
+
+form input, form select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d88771;
+}
+
+form button {
+    padding: 10px 10px;
+    background-color: #d88771;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.candy-item {
+    padding: 20px;
+    margin: 10px;
+    background-color: #ff6f47;
+    color: #e2e4ea;
+    width: 200px;
+    text-align: left;
+}
+
+.candy-item button {
+    display: block;
+    width: 40%;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #d88771;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
